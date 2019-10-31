@@ -100,10 +100,6 @@ nav {
 	width: 20%;
 }
 
-.logo-link {
-	width: 325px;
-}
-
 h3 {
 	font-size: 20px;
 }
@@ -192,4 +188,95 @@ footer {
 	text-align: center;
 	font-size: 24px;
 	margin: 5%;
+}
+
+/* ---------- SERVICES PAGE ---------- */
+
+/* -- NAV BAR -- */
+.logo-link {
+	width: 325px;
+}
+
+/* -- SERVICES INFO -- */
+.services-info {
+	margin: 2% 8%;
+}
+
+.services-info h1 {
+	font-size: 28px;
+}
+
+.services-info p {
+	font-size: 22px;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+/* -- SERVICES SECTION -- */
+.services hr {
+	margin: 4% 8%;
+}
+
+.services-offered {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.service {
+	border: 1px solid grey;
+	margin: 2%;
+	width: 40%;
+	padding: 1.5%;
+	background-color: #F4F3F4;
+}
+
+.service h2 {
+	font-size: 24px;
+	padding: 0% 3%;
+} 
+
+.service p {
+	padding: 3%;
+}
+
+.service button {
+	margin: 4%;
+	padding: 2% 10%;
+	background: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: white;
+}
+
+/* -- ABOUT SECTION-- */
+.about {
+	display: flex;
+	justify-content: space-around;
+	margin: 4%;
+}
+
+.about-details {
+	width: 45%;
+}
+
+.about-details h2 {
+	font-size: 24px;
+}
+
+.about img {
+	width: 40%;
+}
+
+.about ul {
+	margin: 6% 4%;
+	font-size: 24px;
+}
+
+.about li {
+	margin: 2% 0%;
+	list-style-type: square;
 }
