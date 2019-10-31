@@ -74,6 +74,10 @@ hr {
 	padding-bottom: 8%;
 }
 
+.mobile-menu {
+	display: none;
+}
+
 nav {
 	display: flex;
 	justify-content: space-around;
@@ -292,4 +296,14 @@ footer {
 	.service {
 	  width: 80%;
 	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: flex;
+		width: 50%;
+	}
+	
   }
