@@ -280,3 +280,16 @@ footer {
 	margin: 2% 0%;
 	list-style-type: square;
 }
+
+/* -- PRODUCT PAGE -- */
+.product-header-img {
+	width: 100%;
+	height: 500px;
+}
+
+/* -- MEDIA QUERIES -- */
+@media only screen and (max-width: 600px) {
+	.service {
+	  width: 80%;
+	}
+  }
